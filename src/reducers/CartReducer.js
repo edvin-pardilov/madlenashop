@@ -6,7 +6,6 @@ export default function (state = InitialState.cart, action) {
 		case types.GET_CART_SUCCESS:
 			return state;
 		case types.ADD_TO_CART_SUCCESS:
-			console.log('ADD_TO_CART_SUCCESS state', state)
 			var exists = false;
 			const newState = state.map(item => {
 				if (item.id === action.item.id) {

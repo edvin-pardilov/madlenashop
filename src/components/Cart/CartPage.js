@@ -20,7 +20,6 @@ class CartPage extends React.Component {
 
   render() {
     const { cart } = this.props;
-    console.log('render cart', cart)
 
     if (cart && cart.length > 0) {
       const Items = <FlatList contentContainerStyle={styles.list}

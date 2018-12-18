@@ -3,8 +3,8 @@ const Constants = {
         wc: 'https://madlenashop.ru/wp-json/wc/v2/'
     },
     Keys: {
-        ConsumerKey: 'ck_94b6b02a1961dbf2485f0f3070f0eaff1cce3d5c',
-	    ConsumerSecret: 'cs_d31501b1dc40bbd131adebabeddacc939eb7ac30'
+        ConsumerKey: 'ck_2384b7203be78bc55ef071c4ae03287a8048d1b7',
+	    ConsumerSecret: 'cs_a895c025d82273d79a69019e952492affe4571f9'
     }
 }
 

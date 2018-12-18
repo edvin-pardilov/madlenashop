@@ -14,7 +14,6 @@ class ProductsList extends Component {
 
   componentDidMount() {
     this.props.ProductAction.getProducts();
-
   }
 
   _keyExtractor = (item, index) => item.id;
